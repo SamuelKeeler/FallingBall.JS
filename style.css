@@ -1,15 +1,17 @@
 *{
     padding: 0;
     margin: 0;
-
 }
-#game {
-    width: 400;
-    height: 500;
+
+#game{
+    width: 400px;
+    height: 500px;
     border: 1px solid black;
     margin: auto;
+    overflow: hidden;
 }
-#character {
+
+#character{
     width: 20px;
     height: 20px;
     background-color: red;
@@ -28,6 +30,7 @@
     top: 100px;
     margin-top: -20px;
 }
+
 .hole{
     width: 40px;
     height: 20px;
